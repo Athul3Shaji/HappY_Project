@@ -17,6 +17,10 @@ A full-stack **Task Management App** with a modern UI, built using **Next.js (Fr
 - Token-based auth (JWT)
 - CRUD API endpoints for tasks
 - Django Models: `User`, `Task`
+- ## 🛠️ Tech Stack
+=
+- **Tools:** Docker, Docker Compose
+
 
 ---
 
