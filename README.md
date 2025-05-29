@@ -33,14 +33,7 @@ A full-stack **Task Management App** with a modern UI, built using **Next.js (Fr
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the Repo
 
-```bash
-git clone https://github.com/your-username/task-dashboard.git
-cd task-dashboard
-```
-
----
 
 ### 2️⃣ Set up the Backend
 
