@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/task_managment:/app
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile # Use dev Dockerfile here
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/myapp:/app           # Bind mount for live code updates
+      - /app/node_modules               # Prevent overwriting node_modules
+    command: npm run dev                 # Run Next dev server with hot reload
